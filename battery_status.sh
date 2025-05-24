@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Device may be named BAT0, BAT1, or similar. Adjust if needed.
+# Device may be named similar. Adjust if needed.
 BATTERY_PATH="/sys/class/power_supply/axp20x-battery"
 
 # Fallback if path doesn't exist
