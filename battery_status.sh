@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Device may be named BAT0, BAT1, or similar. Adjust if needed.
-BATTERY_PATH="/sys/class/power_supply/BAT0"
+BATTERY_PATH="/sys/class/power_supply/axp20-battery"
 
 # Fallback if path doesn't exist
 if [ ! -d "$BATTERY_PATH" ]; then
